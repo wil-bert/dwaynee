@@ -18,10 +18,13 @@ import { MatMenuModule} from '@angular/material/menu';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeComponentComponent } from './home-component/home-component.component';
+import { MatPseudoCheckboxModule } from '@angular/material/core';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponentComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +42,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatBadgeModule,
     MatSnackBarModule,
     MatMenuModule,
+    MatPseudoCheckboxModule,
+  
     
   ],
   providers: [],

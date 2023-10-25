@@ -20,11 +20,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { MatPseudoCheckboxModule } from '@angular/material/core';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponentComponent
+    HomeComponentComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +45,7 @@ import { MatPseudoCheckboxModule } from '@angular/material/core';
     MatSnackBarModule,
     MatMenuModule,
     MatPseudoCheckboxModule,
+    MatButtonModule,
   
     
   ],

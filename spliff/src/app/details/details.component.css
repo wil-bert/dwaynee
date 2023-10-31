@@ -1,6 +1,14 @@
 body{
     background-color: white(0, 0, 0);
 }
+mat-toolbar{
+    background-color: black;
+    height: 15%;
+}
+span{
+    font-size: 40px;
+    color: white;
+}
 
 * {
   margin: 0;

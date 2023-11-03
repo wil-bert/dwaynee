@@ -21,12 +21,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponentComponent } from './home-component/home-component.component';
 import { MatPseudoCheckboxModule } from '@angular/material/core';
 import { DetailsComponent } from './details/details.component';
+import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponentComponent,
-    DetailsComponent
+    DetailsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
